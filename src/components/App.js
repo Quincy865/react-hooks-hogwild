@@ -1,14 +1,15 @@
 import React from "react";
 import Nav from "./Nav";
-
 import hogs from "../porkers_data";
-
+import HogList from "./Hoglist/Hoglist";
 function App() {
 	return (
-		<div className="App">
-			<Nav />
-		</div>
+	  <div className="App">
+		<h1>Hog Wild</h1>
+		<HogList />
+		<Nav />
+	  </div>
 	);
-}
+  }
 
 export default App;
