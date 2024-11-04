@@ -6,7 +6,7 @@ function HogList() {
    const [hogData, setHogData] = useState(hogs);
    const [showGreasedOnly, setShowGreasedOnly] = useState(false);
    const [sortOption, setSortOption] = useState(null);
-   const [hiddenHogs, setHiddenHogs] = useState(new Set());
+   const [hiddenHogs,] = useState(new Set());
 
    const displayedHogs = hogData
       .filter(hog => (showGreasedOnly ? hog.greased : true))

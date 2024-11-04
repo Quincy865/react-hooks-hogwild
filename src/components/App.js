@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "./Nav";
-import hogs from "../porkers_data";
 import HogList from "./Hoglist/Hoglist";
 function App() {
 	return (
